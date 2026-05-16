@@ -1,8 +1,9 @@
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'cmu_graphics_installer (1)', 'cmu_graphics_installer'))
+
 from cmu_graphics import *
-### Your code goes here; if it contains a call to
-### runApp(), use the "CPCS Mode" starter code instead.
-cmu_graphics.run()
 import random 
 import copy
 '''
@@ -307,3 +308,6 @@ def main():
 
     runAppWithScreens(initialScreen = 'start')
 main()
+### Your code goes here; if it contains a call to
+### runApp(), use the "CPCS Mode" starter code instead.
+cmu_graphics.run()
